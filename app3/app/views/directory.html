@@ -1,0 +1,45 @@
+
+<div class="content">
+<br>
+<input type="text" ng-model="favMe" placeholder="enter your fav number" />
+<p>Your fav: {{favMe}}</p>
+<p>My number: {{5*9}}</p>
+<!--<p>Your number: {{foo_ + _foo}}</p>-->
+
+
+<div ng-controller="TekkenController">
+
+    <input type="text" ng-model="search" placeholder="enter your fav Banda" />
+
+    <button ng-click="order ='name'"  > Order by Name  </button>
+
+    <button ng-click="order ='belt'"  > Order by Belt  </button>
+
+    <ul>
+        <li ng-repeat="i in characters | orderBy: 'wins' | filter : search " ng-show = "i.available">
+            
+            <img ng-src="{{i.thumb}}" style = "margin: -12px 10px  0 0; float: left; width: 50px;"  ng-show="i.thumb" />
+            <h3> &nbsp; {{i.name}} --- {{i.wins}}</h3>
+            <div class="remove" ng-click="removeCharacter(character)"> - </div>
+            <span class="belt" style="background: {{i.belt}}" >  {{i.belt}} Flag </span>
+         </li>
+    </ul>
+
+
+
+    
+    <form ng-submit="addCharacter()">
+
+        <input type="text" placeholder="name" ng-model="yournewCharacter.name"   />
+        <input type="text" placeholder="belt" ng-model="yournewCharacter.belt"   />
+        <input type="text" placeholder="wins" ng-model="yournewCharacter.wins"   />
+        <input type="submit" value = "Add New Character"   />
+
+
+    </form>
+
+
+
+</div>
+
+</div>

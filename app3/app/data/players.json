@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Rojer Federer",
+        "belt": "red",
+        "wins": 50,
+        "available": true,
+        "thumb": "app3/app/images/rojer.png"
+    },
+    {
+        "name": "Rafael Nadal",
+        "belt": "orange",
+        "wins": 80,
+        "available": false,
+        "thumb": "app3/app/images/nadal-head-2022.png"
+    },
+    {
+        "name": "Novak Djokovic",
+        "belt": "blue",
+        "wins": 60,
+        "available": true,
+        "thumb": "app3/app/images/djokovic_head_ao19.png"
+    },
+    {
+        "name": "Dominic Theim",
+        "belt": "red",
+        "wins": 40,
+        "available": true,
+        "thumb": "app3/app/images/thiem-head-2022.png"
+    },
+    {
+        "name": "Saad Ahmed Jamal",
+        "belt": "green",
+        "wins": 2,
+        "available": true,
+        "thumb": "app3/app/images/saad-min.png"
+    },
+    {
+        "name": "Aisam ul Haq",
+        "belt": "green",
+        "wins": 10,
+        "available": true,
+        "thumb": "app3/app/images/qureshi-headshot-15.png"
+    },
+
+    {
+        "name": "Adrian Mannarino",
+        "belt": "blue",
+        "wins": 20,
+        "available": true,
+        "thumb": "app3/app/images/mannarino-head-2022-may.png"
+    },
+
+    {
+        "name": "Adil",
+        "belt": "blue",
+        "wins": 20,
+        "available": false,
+        "thumb": "app3/app/images/unknown.png"
+    }
+
+]
